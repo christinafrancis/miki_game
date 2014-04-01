@@ -19,6 +19,17 @@
 		CFE107E218356C8700D7EA95 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE107E018356C8700D7EA95 /* MainStoryboard_iPhone.storyboard */; };
 		CFE107E518356C8700D7EA95 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE107E318356C8700D7EA95 /* MainStoryboard_iPad.storyboard */; };
 		CFE107E818356C8700D7EA95 /* CFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE107E718356C8700D7EA95 /* CFViewController.m */; };
+		CFE107F718357D8D00D7EA95 /* coin_s_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFE107EE18357D8D00D7EA95 /* coin_s_4.jpg */; };
+		CFE107F818357D8D00D7EA95 /* coin_s_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFE107EF18357D8D00D7EA95 /* coin_s_2.jpg */; };
+		CFE107F918357D8D00D7EA95 /* coin_s_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFE107F018357D8D00D7EA95 /* coin_s_3.jpg */; };
+		CFE107FA18357D8D00D7EA95 /* coin_g_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFE107F118357D8D00D7EA95 /* coin_g_1.jpg */; };
+		CFE107FB18357D8D00D7EA95 /* coin_g_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFE107F218357D8D00D7EA95 /* coin_g_2.jpg */; };
+		CFE107FC18357D8D00D7EA95 /* coin_g_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFE107F318357D8D00D7EA95 /* coin_g_3.jpg */; };
+		CFE107FD18357D8D00D7EA95 /* coin_g_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFE107F418357D8D00D7EA95 /* coin_g_4.jpg */; };
+		CFE107FE18357D8D00D7EA95 /* coin_s_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFE107F518357D8D00D7EA95 /* coin_s_1.jpg */; };
+		CFE107FF18357D8D00D7EA95 /* coin_no.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFE107F618357D8D00D7EA95 /* coin_no.jpg */; };
+		CFE1080218359D9700D7EA95 /* queue.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE1080118359D9700D7EA95 /* queue.m */; };
+		CFE108051835A39900D7EA95 /* cell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE108041835A39900D7EA95 /* cell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +50,19 @@
 		CFE107E418356C8700D7EA95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		CFE107E618356C8700D7EA95 /* CFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFViewController.h; sourceTree = "<group>"; };
 		CFE107E718356C8700D7EA95 /* CFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFViewController.m; sourceTree = "<group>"; };
+		CFE107EE18357D8D00D7EA95 /* coin_s_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coin_s_4.jpg; sourceTree = "<group>"; };
+		CFE107EF18357D8D00D7EA95 /* coin_s_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coin_s_2.jpg; sourceTree = "<group>"; };
+		CFE107F018357D8D00D7EA95 /* coin_s_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coin_s_3.jpg; sourceTree = "<group>"; };
+		CFE107F118357D8D00D7EA95 /* coin_g_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coin_g_1.jpg; sourceTree = "<group>"; };
+		CFE107F218357D8D00D7EA95 /* coin_g_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coin_g_2.jpg; sourceTree = "<group>"; };
+		CFE107F318357D8D00D7EA95 /* coin_g_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coin_g_3.jpg; sourceTree = "<group>"; };
+		CFE107F418357D8D00D7EA95 /* coin_g_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coin_g_4.jpg; sourceTree = "<group>"; };
+		CFE107F518357D8D00D7EA95 /* coin_s_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coin_s_1.jpg; sourceTree = "<group>"; };
+		CFE107F618357D8D00D7EA95 /* coin_no.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coin_no.jpg; sourceTree = "<group>"; };
+		CFE1080018359D9700D7EA95 /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		CFE1080118359D9700D7EA95 /* queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = queue.m; sourceTree = "<group>"; };
+		CFE108031835A39900D7EA95 /* cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cell.h; sourceTree = "<group>"; };
+		CFE108041835A39900D7EA95 /* cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +113,10 @@
 				CFE107D818356C8700D7EA95 /* CFAppDelegate.m */,
 				CFE107E018356C8700D7EA95 /* MainStoryboard_iPhone.storyboard */,
 				CFE107E318356C8700D7EA95 /* MainStoryboard_iPad.storyboard */,
+				CFE1080018359D9700D7EA95 /* queue.h */,
+				CFE1080118359D9700D7EA95 /* queue.m */,
+				CFE108031835A39900D7EA95 /* cell.h */,
+				CFE108041835A39900D7EA95 /* cell.m */,
 				CFE107E618356C8700D7EA95 /* CFViewController.h */,
 				CFE107E718356C8700D7EA95 /* CFViewController.m */,
 				CFE107CF18356C8700D7EA95 /* Supporting Files */,
@@ -99,6 +127,15 @@
 		CFE107CF18356C8700D7EA95 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CFE107EE18357D8D00D7EA95 /* coin_s_4.jpg */,
+				CFE107EF18357D8D00D7EA95 /* coin_s_2.jpg */,
+				CFE107F018357D8D00D7EA95 /* coin_s_3.jpg */,
+				CFE107F118357D8D00D7EA95 /* coin_g_1.jpg */,
+				CFE107F218357D8D00D7EA95 /* coin_g_2.jpg */,
+				CFE107F318357D8D00D7EA95 /* coin_g_3.jpg */,
+				CFE107F418357D8D00D7EA95 /* coin_g_4.jpg */,
+				CFE107F518357D8D00D7EA95 /* coin_s_1.jpg */,
+				CFE107F618357D8D00D7EA95 /* coin_no.jpg */,
 				CFE107D018356C8700D7EA95 /* Miki_game-Info.plist */,
 				CFE107D118356C8700D7EA95 /* InfoPlist.strings */,
 				CFE107D418356C8700D7EA95 /* main.m */,
@@ -168,6 +205,15 @@
 				CFE107DF18356C8700D7EA95 /* Default-568h@2x.png in Resources */,
 				CFE107E218356C8700D7EA95 /* MainStoryboard_iPhone.storyboard in Resources */,
 				CFE107E518356C8700D7EA95 /* MainStoryboard_iPad.storyboard in Resources */,
+				CFE107F718357D8D00D7EA95 /* coin_s_4.jpg in Resources */,
+				CFE107F818357D8D00D7EA95 /* coin_s_2.jpg in Resources */,
+				CFE107F918357D8D00D7EA95 /* coin_s_3.jpg in Resources */,
+				CFE107FA18357D8D00D7EA95 /* coin_g_1.jpg in Resources */,
+				CFE107FB18357D8D00D7EA95 /* coin_g_2.jpg in Resources */,
+				CFE107FC18357D8D00D7EA95 /* coin_g_3.jpg in Resources */,
+				CFE107FD18357D8D00D7EA95 /* coin_g_4.jpg in Resources */,
+				CFE107FE18357D8D00D7EA95 /* coin_s_1.jpg in Resources */,
+				CFE107FF18357D8D00D7EA95 /* coin_no.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +227,8 @@
 				CFE107D518356C8700D7EA95 /* main.m in Sources */,
 				CFE107D918356C8700D7EA95 /* CFAppDelegate.m in Sources */,
 				CFE107E818356C8700D7EA95 /* CFViewController.m in Sources */,
+				CFE1080218359D9700D7EA95 /* queue.m in Sources */,
+				CFE108051835A39900D7EA95 /* cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

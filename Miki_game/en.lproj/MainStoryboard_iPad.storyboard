@@ -1,23 +1,386 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="4">
             <objects>
                 <viewController id="2" customClass="CFViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HG-1i-7g5">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="IeW-oB-ckT"/>
+                                    <constraint firstAttribute="height" constant="53" id="e0Q-Y2-Dlc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Pb-Oa-A2c">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HJ-nz-PVY">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqt-3A-lgn">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1D2-uy-MLa">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="wqb-hy-hdv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="neH-uc-p17">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrZ-Tq-xEo">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quL-og-L3T">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="B9p-wN-6Oq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="113-kW-PTA">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="xiX-Vy-OBd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHE-IM-tVe">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="AP7-WK-Hka"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Agj-Ix-Aoq">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="xrd-X4-coh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ea1-yj-WgN">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="HzP-H7-yao"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="16" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1r6-db-WTo">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="JEh-RX-1mp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxV-fv-AFQ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="14c-iR-CTV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="17" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mY9-BG-eTv">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="18" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hg6-ay-NeA">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sff-Ml-Trb">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="mXV-gz-Hwo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="19" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvx-VG-zkh">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLg-lP-fMH">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="uOe-bb-O30"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" horizontalHuggingPriority="972" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="966" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Gs-aT-Gs9">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button" image="coin_no.jpg" backgroundImage="coin_no.jpg">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fHE-IM-tVe" firstAttribute="leading" secondItem="7HJ-nz-PVY" secondAttribute="leading" type="default" id="0QG-e7-BqC"/>
+                            <constraint firstItem="jLg-lP-fMH" firstAttribute="bottom" secondItem="quL-og-L3T" secondAttribute="bottom" type="default" id="13x-AC-Nfu"/>
+                            <constraint firstItem="Sff-Ml-Trb" firstAttribute="bottom" secondItem="wxV-fv-AFQ" secondAttribute="bottom" type="default" id="1GA-Vo-Xdz"/>
+                            <constraint firstItem="qrZ-Tq-xEo" firstAttribute="bottom" secondItem="quL-og-L3T" secondAttribute="bottom" type="default" id="1eK-TN-usF"/>
+                            <constraint firstItem="1r6-db-WTo" firstAttribute="top" secondItem="Ea1-yj-WgN" secondAttribute="top" type="default" id="5C5-CT-cxi"/>
+                            <constraint firstItem="7HJ-nz-PVY" firstAttribute="top" secondItem="3Pb-Oa-A2c" secondAttribute="top" type="default" id="5dy-kl-1Tq"/>
+                            <constraint firstItem="mY9-BG-eTv" firstAttribute="top" secondItem="hg6-ay-NeA" secondAttribute="top" type="default" id="6TI-kR-xbs"/>
+                            <constraint firstItem="7HG-1i-7g5" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="105" id="7Lh-vE-7Ra"/>
+                            <constraint firstItem="wxV-fv-AFQ" firstAttribute="bottom" secondItem="fHE-IM-tVe" secondAttribute="bottom" type="default" id="89z-dx-Zq8"/>
+                            <constraint firstItem="3Gs-aT-Gs9" firstAttribute="leading" secondItem="Rqt-3A-lgn" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="8oT-kE-wi1"/>
+                            <constraint firstItem="qrZ-Tq-xEo" firstAttribute="leading" secondItem="neH-uc-p17" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="AZK-gd-eRd"/>
+                            <constraint firstItem="Agj-Ix-Aoq" firstAttribute="leading" secondItem="Ea1-yj-WgN" secondAttribute="leading" type="default" id="BL1-Mc-6UY"/>
+                            <constraint firstItem="1r6-db-WTo" firstAttribute="bottom" secondItem="mY9-BG-eTv" secondAttribute="bottom" type="default" id="CGV-sC-IwH"/>
+                            <constraint firstItem="neH-uc-p17" firstAttribute="top" secondItem="qrZ-Tq-xEo" secondAttribute="top" type="default" id="CvY-Tx-fmU"/>
+                            <constraint firstItem="7HJ-nz-PVY" firstAttribute="leading" secondItem="qrZ-Tq-xEo" secondAttribute="leading" type="default" id="E0p-A1-kAd"/>
+                            <constraint firstItem="1r6-db-WTo" firstAttribute="bottom" secondItem="Ea1-yj-WgN" secondAttribute="bottom" type="default" id="EEa-l9-MAy"/>
+                            <constraint firstItem="1D2-uy-MLa" firstAttribute="top" secondItem="fHE-IM-tVe" secondAttribute="top" type="default" id="EeV-KY-Dbj"/>
+                            <constraint firstItem="hg6-ay-NeA" firstAttribute="top" secondItem="yvx-VG-zkh" secondAttribute="top" type="default" id="FPV-AN-XWi"/>
+                            <constraint firstItem="quL-og-L3T" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="277" id="FpR-K5-Lnm"/>
+                            <constraint firstItem="jLg-lP-fMH" firstAttribute="top" secondItem="quL-og-L3T" secondAttribute="top" type="default" id="GTS-Xj-0Uu"/>
+                            <constraint firstItem="neH-uc-p17" firstAttribute="bottom" secondItem="Agj-Ix-Aoq" secondAttribute="bottom" type="default" id="HRC-NW-lqT"/>
+                            <constraint firstItem="qrZ-Tq-xEo" firstAttribute="trailing" secondItem="mY9-BG-eTv" secondAttribute="trailing" type="default" id="Imp-6l-vst"/>
+                            <constraint firstItem="3Pb-Oa-A2c" firstAttribute="leading" secondItem="neH-uc-p17" secondAttribute="leading" type="default" id="MxP-KG-haC"/>
+                            <constraint firstItem="3Gs-aT-Gs9" firstAttribute="leading" secondItem="Sff-Ml-Trb" secondAttribute="leading" type="default" id="NVQ-n2-4zD"/>
+                            <constraint firstItem="3Pb-Oa-A2c" firstAttribute="top" secondItem="113-kW-PTA" secondAttribute="top" type="default" id="OdR-fS-eTh"/>
+                            <constraint firstItem="wxV-fv-AFQ" firstAttribute="top" secondItem="fHE-IM-tVe" secondAttribute="top" type="default" id="RER-ZO-2E9"/>
+                            <constraint firstItem="Agj-Ix-Aoq" firstAttribute="trailing" secondItem="Ea1-yj-WgN" secondAttribute="trailing" type="default" id="RYY-Qj-qLV"/>
+                            <constraint firstItem="wxV-fv-AFQ" firstAttribute="top" secondItem="Sff-Ml-Trb" secondAttribute="top" type="default" id="Rtu-xy-GQl"/>
+                            <constraint firstItem="3Gs-aT-Gs9" firstAttribute="bottom" secondItem="Rqt-3A-lgn" secondAttribute="bottom" type="default" id="Sao-sg-vU7"/>
+                            <constraint firstItem="jLg-lP-fMH" firstAttribute="leading" secondItem="quL-og-L3T" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Xn0-eu-1m0"/>
+                            <constraint firstItem="3Gs-aT-Gs9" firstAttribute="top" secondItem="Rqt-3A-lgn" secondAttribute="top" type="default" id="YB0-cz-SOe"/>
+                            <constraint firstItem="Ea1-yj-WgN" firstAttribute="top" secondItem="5" secondAttribute="top" constant="395" id="YXM-qD-4OT"/>
+                            <constraint firstItem="yvx-VG-zkh" firstAttribute="bottom" secondItem="hg6-ay-NeA" secondAttribute="bottom" type="default" id="Z73-Il-9v2"/>
+                            <constraint firstItem="qrZ-Tq-xEo" firstAttribute="trailing" secondItem="7HJ-nz-PVY" secondAttribute="trailing" type="default" id="ak2-5I-TSd"/>
+                            <constraint firstItem="fHE-IM-tVe" firstAttribute="bottom" secondItem="1D2-uy-MLa" secondAttribute="bottom" type="default" id="bzj-bs-Ad1"/>
+                            <constraint firstItem="wxV-fv-AFQ" firstAttribute="leading" secondItem="fHE-IM-tVe" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="cIB-0A-BIq"/>
+                            <constraint firstItem="1D2-uy-MLa" firstAttribute="bottom" secondItem="7HG-1i-7g5" secondAttribute="bottom" type="default" id="cLh-kj-dUw"/>
+                            <constraint firstItem="1D2-uy-MLa" firstAttribute="leading" secondItem="3Pb-Oa-A2c" secondAttribute="leading" type="default" id="d9h-hB-xJd"/>
+                            <constraint firstItem="mY9-BG-eTv" firstAttribute="bottom" secondItem="hg6-ay-NeA" secondAttribute="bottom" type="default" id="dLC-M8-192"/>
+                            <constraint firstItem="neH-uc-p17" firstAttribute="leading" secondItem="Agj-Ix-Aoq" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="e2b-ig-9sO"/>
+                            <constraint firstItem="113-kW-PTA" firstAttribute="leading" secondItem="Agj-Ix-Aoq" secondAttribute="leading" type="default" id="eRp-Rx-Cne"/>
+                            <constraint firstItem="Rqt-3A-lgn" firstAttribute="top" secondItem="7HJ-nz-PVY" secondAttribute="top" type="default" id="egK-cN-9LG"/>
+                            <constraint firstItem="3Pb-Oa-A2c" firstAttribute="leading" secondItem="113-kW-PTA" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="gDJ-Gh-bHD"/>
+                            <constraint firstItem="Rqt-3A-lgn" firstAttribute="leading" secondItem="7HJ-nz-PVY" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="ghL-Fn-bb2"/>
+                            <constraint firstItem="qrZ-Tq-xEo" firstAttribute="leading" secondItem="mY9-BG-eTv" secondAttribute="leading" type="default" id="gpi-fp-Jmb"/>
+                            <constraint firstItem="fHE-IM-tVe" firstAttribute="leading" secondItem="1D2-uy-MLa" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="hMP-oR-mFI"/>
+                            <constraint firstItem="Agj-Ix-Aoq" firstAttribute="top" secondItem="5" secondAttribute="top" constant="330" id="hff-y0-LjD"/>
+                            <constraint firstItem="yvx-VG-zkh" firstAttribute="leading" secondItem="jLg-lP-fMH" secondAttribute="leading" type="default" id="j1d-fe-j9s"/>
+                            <constraint firstItem="yvx-VG-zkh" firstAttribute="leading" secondItem="hg6-ay-NeA" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="jHJ-Q0-QAU"/>
+                            <constraint firstItem="1r6-db-WTo" firstAttribute="top" secondItem="mY9-BG-eTv" secondAttribute="top" type="default" id="koG-BM-ic5"/>
+                            <constraint firstItem="1D2-uy-MLa" firstAttribute="leading" secondItem="7HG-1i-7g5" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="mPH-YG-x33"/>
+                            <constraint firstItem="Sff-Ml-Trb" firstAttribute="trailing" secondItem="3Gs-aT-Gs9" secondAttribute="trailing" type="default" id="nKK-LS-f2x"/>
+                            <constraint firstItem="7HG-1i-7g5" firstAttribute="top" secondItem="5" secondAttribute="top" constant="193" id="nMJ-3s-Fpu"/>
+                            <constraint firstItem="1r6-db-WTo" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="165" id="nTk-6L-SQr"/>
+                            <constraint firstItem="Rqt-3A-lgn" firstAttribute="leading" secondItem="wxV-fv-AFQ" secondAttribute="leading" type="default" id="oGA-g4-lm9"/>
+                            <constraint firstItem="3Pb-Oa-A2c" firstAttribute="bottom" secondItem="113-kW-PTA" secondAttribute="bottom" type="default" id="ox3-Sg-mQg"/>
+                            <constraint firstItem="yvx-VG-zkh" firstAttribute="trailing" secondItem="jLg-lP-fMH" secondAttribute="trailing" type="default" id="p2I-Hu-p3y"/>
+                            <constraint firstItem="quL-og-L3T" firstAttribute="top" secondItem="qrZ-Tq-xEo" secondAttribute="top" type="default" id="pqV-80-UXL"/>
+                            <constraint firstItem="113-kW-PTA" firstAttribute="top" secondItem="5" secondAttribute="top" constant="263" id="q7w-23-2DM"/>
+                            <constraint firstItem="7HJ-nz-PVY" firstAttribute="leading" secondItem="3Pb-Oa-A2c" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="qbI-vG-q4S"/>
+                            <constraint firstItem="7HJ-nz-PVY" firstAttribute="bottom" secondItem="Rqt-3A-lgn" secondAttribute="bottom" type="default" id="sLn-9E-5GZ"/>
+                            <constraint firstItem="neH-uc-p17" firstAttribute="bottom" secondItem="qrZ-Tq-xEo" secondAttribute="bottom" type="default" id="sqT-Qq-gs3"/>
+                            <constraint firstItem="neH-uc-p17" firstAttribute="top" secondItem="Agj-Ix-Aoq" secondAttribute="top" type="default" id="stK-iu-rbk"/>
+                            <constraint firstItem="7HG-1i-7g5" firstAttribute="top" secondItem="1D2-uy-MLa" secondAttribute="top" type="default" id="uUn-IO-j5B"/>
+                            <constraint firstItem="quL-og-L3T" firstAttribute="leading" secondItem="hg6-ay-NeA" secondAttribute="leading" type="default" id="uf0-n9-cQU"/>
+                            <constraint firstItem="Sff-Ml-Trb" firstAttribute="leading" secondItem="wxV-fv-AFQ" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="uhF-Wh-TGM"/>
+                            <constraint firstItem="113-kW-PTA" firstAttribute="leading" secondItem="7HG-1i-7g5" secondAttribute="leading" type="default" id="yYm-BU-I9g"/>
+                            <constraint firstItem="3Pb-Oa-A2c" firstAttribute="bottom" secondItem="7HJ-nz-PVY" secondAttribute="bottom" type="default" id="z9B-0b-EqA"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="coin_no.jpg" width="1944" height="2592"/>
+    </resources>
+    <classes>
+        <class className="CFViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CFViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="handle_selection:" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_10" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_11" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_12" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_13" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_14" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_15" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_16" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_17" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_18" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_19" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_2" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_20" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_3" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_4" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_5" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_6" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_7" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_8" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bt_9" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
